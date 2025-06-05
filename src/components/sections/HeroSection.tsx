@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Download, Mail, ChevronDown } from "lucide-react";
+import profileImage from "@/assets/images/portfolio_image.jpg"; 
 
 const HeroSection = () => {
   const [displayText, setDisplayText] = useState("");
@@ -67,7 +68,7 @@ const HeroSection = () => {
         <div className="mb-8 animate-fade-in">
           <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 p-1 animate-pulse">
             <img
-              src="../../assets/images/portfolio_image.jpg"
+              src={profileImage}
               alt="Profile"
               className="w-full h-full rounded-full object-cover"
             />
