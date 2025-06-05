@@ -67,7 +67,7 @@ const HeroSection = () => {
         <div className="mb-8 animate-fade-in">
           <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-cyan-400 to-blue-500 p-1 animate-pulse">
             <img
-              src="src\assets\images\portfolio_image.jpg"
+              src="../../assets/images/portfolio_image.png"
               alt="Profile"
               className="w-full h-full rounded-full object-cover"
             />
