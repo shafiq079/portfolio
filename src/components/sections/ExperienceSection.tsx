@@ -4,76 +4,81 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, Building } from "lucide-react";
 
 const ExperienceSection = () => {
-  const experiences = [
-    {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      duration: "2022 - Present",
-      type: "Full-time",
-      description: "Lead development of scalable web applications using React, Node.js, and cloud technologies. Mentored junior developers and implemented best practices for code quality and performance.",
-      achievements: [
-        "Increased application performance by 40% through optimization",
-        "Led a team of 5 developers on multiple projects",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Designed and built microservices architecture"
-      ],
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "Docker", "Kubernetes"]
-    },
-    {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      location: "New York, NY",
-      duration: "2020 - 2022",
-      type: "Full-time",
-      description: "Developed and maintained multiple client-facing applications. Collaborated with cross-functional teams to deliver high-quality software solutions on tight deadlines.",
-      achievements: [
-        "Built 3 major applications from scratch",
-        "Reduced bug reports by 50% through comprehensive testing",
-        "Improved user engagement by 35% with UX improvements",
-        "Integrated third-party APIs and payment systems"
-      ],
-      technologies: ["Vue.js", "Python", "Django", "PostgreSQL", "Redis", "Stripe"]
-    },
-    {
-      title: "Frontend Developer",
-      company: "WebAgency Pro",
-      location: "Austin, TX",
-      duration: "2019 - 2020",
-      type: "Full-time",
-      description: "Specialized in creating responsive, user-friendly web interfaces. Worked closely with designers to implement pixel-perfect designs and ensure optimal user experience.",
-      achievements: [
-        "Delivered 20+ responsive websites",
-        "Improved page load speeds by 50% on average",
-        "Implemented modern CSS techniques and animations",
-        "Collaborated with design team on 15+ projects"
-      ],
-      technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Sass", "Bootstrap"]
-    },
-    {
-      title: "Junior Web Developer",
-      company: "Digital Solutions Inc.",
-      location: "Remote",
-      duration: "2018 - 2019",
-      type: "Full-time",
-      description: "Started my professional journey building websites and learning industry best practices. Contributed to various projects while continuously expanding my technical skills.",
-      achievements: [
-        "Completed 10+ client projects successfully",
-        "Learned modern JavaScript frameworks",
-        "Contributed to open-source projects",
-        "Received 'Rising Star' award for exceptional growth"
-      ],
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress"]
-    }
-  ];
+const experiences = [
+  {
+    title: "Full Stack Developer (Final Year Project)",
+    company: "University of Gujrat",
+    location: "Gujrat, Pakistan",
+    duration: "2024 - 2025",
+    type: "Academic",
+    description:
+      "Designed and developed a full-featured e-commerce web application as part of the final year project. Focused on clean architecture, secure authentication, admin dashboard, and user-friendly UI.",
+    achievements: [
+      "Built product listing, cart, checkout, and user auth system",
+      "Developed an admin dashboard for product and order management",
+      "Used REST APIs for dynamic data flow and MongoDB for data storage",
+      "Integrated styled components using Tailwind CSS"
+    ],
+    technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"]
+  },
+  {
+    title: "Frontend Developer for International Clients",
+    company: "Freelance Projects",
+    location: "Remote (USA-based Clients)",
+    duration: "2023",
+    type: "Freelance",
+    description:
+      "Worked with two US-based Pakistani clients to build responsive home service websites. Delivered clean, maintainable frontend code and deployed live websites with optimized performance.",
+    achievements: [
+      "Developed Bhatti Construction's official website using HTML, CSS, and JS",
+      "Built Hi-Lite General Contracting Corporation's website using GoDaddy website builder",
+      "Implemented modern UI with cross-device responsiveness",
+      "Provided ongoing support and maintenance post-deployment"
+    ],
+    technologies: ["HTML", "CSS", "JavaScript", "GoDaddy Website Builder"]
+  },
+  {
+    title: "AI Chatbot Developer",
+    company: "Self-Initiated Project",
+    location: "Remote",
+    duration: "2024",
+    type: "Independent",
+    description:
+      "Created an AI-powered chatbot web application using Gemini API, inspired by ChatGPT. Designed the interface, integrated real-time messaging, and implemented token-based access.",
+    achievements: [
+      "Built clean chat UI with React and Tailwind CSS",
+      "Integrated Gemini API for AI-powered responses",
+      "Handled user input, prompt engineering, and output formatting",
+      "Optimized UI for mobile and desktop users"
+    ],
+    technologies: ["React", "Gemini API", "Tailwind CSS", "JavaScript"]
+  },
+  {
+    title: "TaskFlow – Task Management Dashboard",
+    company: "Self-Initiated Project",
+    location: "Remote",
+    duration: "2024",
+    type: "Independent",
+    description:
+      "Designed and developed a task management dashboard with Pomodoro timer and analytics features. The project focused on user productivity, clean UX, and performance visualization.",
+    achievements: [
+      "Implemented task creation and category management system",
+      "Integrated Pomodoro technique with timer logic and sessions",
+      "Used Chart.js to visualize completed tasks and productivity stats",
+      "Designed a responsive, intuitive dashboard layout"
+    ],
+    technologies: ["React", "Chart.js", "Tailwind CSS", "JavaScript"]
+  }
+];
+
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of Technology",
-      location: "California, USA",
-      duration: "2014 - 2018",
-      achievements: ["Magna Cum Laude", "Dean's List", "Programming Club President"]
+      degree: "Bachelor of Science in Software Engineering ",
+      school: "University of Gujrat",
+      location: "Gujrat, Pakistan",
+      duration: "2021 - 2025",
+      achievements: ["FYP Completion Certificate", "Dean's List", "MERN Stack Certification"]
     }
   ];
 

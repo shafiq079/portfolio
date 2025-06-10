@@ -44,19 +44,19 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "john.doe@example.com",
-      href: "mailto:john.doe@example.com",
+      value: "shafiqsheeeqi079@gmail.com",
+      href: "mailto:shafiqsheeeqi079@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+92 344 2002559",
+      href: "tel:+923442002559",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Mandibahauddin, Punjab, Pakistan",
       href: "#",
     },
   ];
@@ -65,13 +65,13 @@ const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/shafiq079",
       color: "hover:text-gray-400",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/shafiq-ur-rehman-8b25a52b7/",
       color: "hover:text-blue-400",
     },
     {
@@ -218,7 +218,7 @@ const ContactSection = () => {
             </Card>
 
             {/* Quick Response */}
-            <Card className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 backdrop-blur-sm border-cyan-400/20">
+            <Card className="bg-slate-800/50 backdrop-blur-sm border-white/10">
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-bold text-white mb-4">Quick Response Guaranteed</h3>
                 <p className="text-gray-300 text-sm mb-4">
