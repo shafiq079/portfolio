@@ -25,7 +25,7 @@ const LoadingScreen = () => {
         {/* Animated logo/name */}
         <div className="space-y-4">
           <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent animate-pulse">
-            Portfolio
+            Wellcome
           </h1>
           <div className="flex justify-center space-x-1">
             {[0, 1, 2].map((i) => (
@@ -40,7 +40,10 @@ const LoadingScreen = () => {
 
         {/* Progress bar */}
         <div className="w-80 mx-auto space-y-2">
-          <Progress value={progress} className="h-2" />
+          <Progress
+            value={progress}
+            className="h-3 [&>div]:bg-cyan-400" 
+          />
           <p className="text-gray-400 text-sm">{progress}% Loading...</p>
         </div>
       </div>
