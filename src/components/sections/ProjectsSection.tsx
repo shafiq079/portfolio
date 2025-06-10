@@ -4,6 +4,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, Filter } from "lucide-react";
+import chatbotImage from "../../assets/images/chatbot.png";
+import mashaIndustriesImage from "../../assets/images/masha-industries.png";
+import taskmanagementImage from "../../assets/images/task-management.png";
+import bhatticonstrcutionImage from "../../assets/images/bhatti-construction.png";
+import hilite from "../../assets/images/hi-liteConstruction.png";
+import platezilla from "../../assets/images/platezilla.png";
 
 const ProjectsSection = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -12,61 +18,61 @@ const ProjectsSection = () => {
     {
       id: 1,
       title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and real-time inventory tracking.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+      description: "A full-stack e-commerce store with admin dashboard built with React, Node.js, and Stripe integration. Features include user authentication, product management, and real-time inventory tracking.",
+      image: mashaIndustriesImage,
+      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS", "Express.js"],
       category: "fullstack",
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://masha-industries.vercel.app/",
+      githubUrl: "https://github.com/shafiq079/mashaIndustries",
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      technologies: ["Vue.js", "Express.js", "Socket.io", "PostgreSQL"],
-      category: "frontend",
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "ChatAI Application",
+      description: "A real-time chat application with AI-powered responses, built using MERN Technology. Features include user authentication, message history, and AI chatbots.",
+      image: chatbotImage,
+      technologies: ["Node.js", "React", "Express.js", "MongoDB", "Tailwind CSS", "Gemini API"],
+      category: "fullstack",
+      liveUrl: "https://chat-ai-lilac.vercel.app/",
+      githubUrl: "https://github.com/shafiq079/ChatAI",
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A beautiful weather application with location-based forecasts, interactive maps, and historical weather data visualization.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      technologies: ["React", "TypeScript", "Chart.js", "Weather API"],
-      category: "frontend",
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "Task Flow",
+      description: "A responsive Task Management Application built with React, Node.js, and MongoDB. Features include user authentication, task creation, and real-time updates.",
+      image: taskmanagementImage,
+      technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Express.js", "Vite", "Vercel"],
+      category: "fullstack",
+      liveUrl: "https://task-management-app-five-eta.vercel.app/",
+      githubUrl: "https://github.com/shafiq079/TaskManagementApp",
     },
     {
       id: 4,
-      title: "API Gateway Service",
-      description: "A scalable microservices API gateway with authentication, rate limiting, and monitoring capabilities built with Node.js.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
-      technologies: ["Node.js", "Docker", "Redis", "JWT", "Kubernetes"],
-      category: "backend",
-      liveUrl: "#",
+      title: "Bhatti Construction",
+      description: "A home construction company website showcasing services, projects, and client testimonials. Built with HTML, CSS and Javascript for backend services",
+      image: bhatticonstrcutionImage,
+      technologies: ["Javascript", "Tailwind CSS", "HTML", "CSS", "Google Maps API"],
+      category: "frontend",
+      liveUrl: "https://bhatticonstruction.com/",
       githubUrl: "#",
     },
     {
       id: 5,
-      title: "Social Media Dashboard",
-      description: "A comprehensive analytics dashboard for social media management with real-time metrics and automated reporting.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      technologies: ["Next.js", "Python", "FastAPI", "PostgreSQL", "Chart.js"],
+      title: "Platezilla Automotive Service",
+      description: "A shopify e-commerce store for automotive parts and services. Features include product listings, shopping cart, and secure checkout. Built with Shopify CLI, Liquid, and custom theme development.",
+      image: platezilla,
+      technologies: ["Shopify CLI", "Liquid", "Custom Theme", "Shopify Admin API & Storefront API","Metafields "],
       category: "fullstack",
-      liveUrl: "#",
+      liveUrl: "https://www.platezilla.com/",
       githubUrl: "#",
     },
     {
       id: 6,
-      title: "Mobile Banking App",
-      description: "A secure mobile banking application with biometric authentication, transaction history, and budget tracking features.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
-      technologies: ["React Native", "Node.js", "MongoDB", "JWT", "Plaid API"],
-      category: "mobile",
-      liveUrl: "#",
+      title: "Hi-Lite Improvements",
+      description: "A home improvement company website showcasing services, projects, and client testimonials. Built with GoDaddy with custom code HTML, CSS and Javascript for backend services",
+      image: hilite,
+      technologies: ["GoDaddy", "DNS Configuration","HTML", "CSS", "API"],
+      category: "frontend",
+      liveUrl: "https://hi-liteimprovements.com/",
       githubUrl: "#",
     },
   ];
@@ -143,7 +149,7 @@ const ProjectsSection = () => {
                     <Button
                       size="sm"
                       variant="outline"
-                      className="border-white text-white hover:bg-white hover:text-slate-900"
+                      className="border-white hover:bg-white text-slate-900"
                       asChild
                     >
                       <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">

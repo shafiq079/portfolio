@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Download } from "lucide-react";
+import logo from "../../public/shafiq_logo.png"; 
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -52,8 +53,8 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-            Portfolio
+          <div className="h-10 w-10 md:h-12 md:w-12">
+            <img src={logo} alt="" />
           </div>
 
           {/* Desktop Navigation */}

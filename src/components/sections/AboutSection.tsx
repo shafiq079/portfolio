@@ -87,7 +87,7 @@ const AboutSection = () => {
         {/* Stats */}
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: "2+", label: "Years Experience" },
+            { number: "4+", label: "Years Experience" },
             { number: "20+", label: "Projects Completed" },
             { number: "15+", label: "Technologies" },
             { number: "100%", label: "Client Satisfaction" },
