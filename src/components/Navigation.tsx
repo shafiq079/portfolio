@@ -37,7 +37,7 @@ const Navigation = () => {
   const downloadResume = () => {
     // Create a dummy PDF download
     const link = document.createElement("a");
-    link.href = "/placeholder.svg"; // Replace with actual resume file
+    link.href = "/shafiq-ur-rehman.pdf"; // Replace with actual resume file
     link.download = "shafiq-ur-rehman.pdf";
     link.click();
   };
