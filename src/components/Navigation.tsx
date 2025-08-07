@@ -38,7 +38,7 @@ const Navigation = () => {
     // Create a dummy PDF download
     const link = document.createElement("a");
     link.href = "/placeholder.svg"; // Replace with actual resume file
-    link.download = "Resume.pdf";
+    link.download = "shafiq-ur-rehman.pdf";
     link.click();
   };
 
