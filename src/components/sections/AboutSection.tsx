@@ -44,7 +44,7 @@ const AboutSection = () => {
             <Card className="bg-slate-800/50 backdrop-blur-sm border-white/10 hover:border-cyan-400/50 transition-all duration-300">
               <CardContent className="p-8">
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                  Hello! I'm Shafiq, a passionate full-stack web developer with over 2 years of experience
+                  Hello! I'm Shafiq, a passionate full-stack web developer with over 4+ years of experience
                   creating digital experiences that make a difference. I specialize in building
                   modern web applications that are not only functional but also beautiful and intuitive.
                 </p>
