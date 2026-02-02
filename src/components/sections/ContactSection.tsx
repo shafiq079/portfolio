@@ -56,7 +56,7 @@ const ContactSection = () => {
     {
       icon: MapPin,
       label: "Location",
-      value: "Mandibahauddin, Punjab, Pakistan",
+      value: "Islamabad, Punjab, Pakistan",
       href: "#",
     },
   ];
