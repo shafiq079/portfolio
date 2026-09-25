@@ -40,8 +40,8 @@ const HeroSection = () => {
 
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/placeholder.svg";
-    link.download = "Resume.pdf";
+    link.href = "/shafiq-ur-rehman.pdf";
+    link.download = "shafiq-ur-rehman.pdf";
     link.click();
   };
 

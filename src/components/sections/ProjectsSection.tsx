@@ -80,9 +80,7 @@ const ProjectsSection = () => {
   const filters = [
     { key: "all", label: "All Projects" },
     { key: "frontend", label: "Frontend" },
-    { key: "backend", label: "Backend" },
     { key: "fullstack", label: "Full Stack" },
-    { key: "mobile", label: "Mobile" },
   ];
 
   const filteredProjects = activeFilter === "all" 
@@ -146,16 +144,18 @@ const ProjectsSection = () => {
                         <ExternalLink className="w-4 h-4" />
                       </a>
                     </Button>
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="border-white hover:bg-white text-slate-900"
-                      asChild
-                    >
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                        <Github className="w-4 h-4" />
-                      </a>
-                    </Button>
+                    {project.githubUrl !== "#" && (
+                      <Button
+                        size="sm"
+                        variant="outline"
+                        className="border-white hover:bg-white text-slate-900"
+                        asChild
+                      >
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} on GitHub`}>
+                          <Github className="w-4 h-4" />
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </div>
               </div>
@@ -189,9 +189,12 @@ const ProjectsSection = () => {
             variant="outline"
             size="lg"
             className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 transform hover:scale-105 transition-all duration-300"
+            asChild
           >
-            <Github className="w-5 h-5 mr-2" />
-            View More on GitHub
+            <a href="https://github.com/shafiq079" target="_blank" rel="noopener noreferrer">
+              <Github className="w-5 h-5 mr-2" />
+              View More on GitHub
+            </a>
           </Button>
         </div>
       </div>
