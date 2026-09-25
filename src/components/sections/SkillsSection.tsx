@@ -96,7 +96,8 @@ const SkillsSection = () => {
                   </div>
                   <Progress
                     value={skill.level}
-                    className="h-3 bg-slate-700"
+                    aria-label={`${skill.name} proficiency`}
+                    className="h-3 bg-slate-700/70 [&>div]:bg-gradient-to-r [&>div]:from-cyan-400 [&>div]:to-blue-400"
                   />
                 </div>
               ))}
